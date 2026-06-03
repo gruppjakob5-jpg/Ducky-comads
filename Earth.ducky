@@ -1,0 +1,15 @@
+REM --- ASCII Earth Animation für MelounczYT ---
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 500
+STRING mode con: cols=100 lines=30
+ENTER
+STRING color 0b
+ENTER
+STRING cls
+ENTER
+STRING curl ascii.live/earth
+ENTER
