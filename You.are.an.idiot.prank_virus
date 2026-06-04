@@ -1,0 +1,10 @@
+REM Fenster oeffnen
+GUI r
+DELAY 50
+STRING https://youtu.be/48rz8udZBmQ?is=NQdD3YeL1WS45gAs
+ENTER
+REM Sofort F11 ausloesen, waehrend die Seite noch laedt
+F11
+REM Wartezeit fuer das Video
+DELAY 29000
+ALT F4
