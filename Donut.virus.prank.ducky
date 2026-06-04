@@ -1,0 +1,15 @@
+REM Open Run dialog
+GUI r
+DELAY 200
+STRING cmd
+ENTER
+DELAY 500
+
+REM Change console color to light green (0 = black bg, a = light green text)
+STRING color 0a
+ENTER
+DELAY 100
+
+REM Run the command for the donut animation
+STRING curl ascii.live/donut
+ENTER
