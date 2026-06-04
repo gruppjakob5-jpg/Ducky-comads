@@ -1,0 +1,15 @@
+REM Open Run dialog
+GUI r
+DELAY 200
+STRING cmd
+ENTER
+DELAY 500
+
+REM Change console color to light purple (0 = black bg, d = light purple text)
+STRING color 0d
+ENTER
+DELAY 100
+
+REM Run the command for the kitty animation
+STRING curl ascii.live/kitty
+ENTER
