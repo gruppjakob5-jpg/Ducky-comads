@@ -1,0 +1,10 @@
+REM Open Run dialog
+GUI r
+DELAY 200
+STRING cmd
+ENTER
+DELAY 500
+
+REM Run the command for the parrot animation
+STRING curl parrot.live
+ENTER
