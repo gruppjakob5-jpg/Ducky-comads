@@ -1,0 +1,15 @@
+REM Open Run dialog
+GUI r
+DELAY 200
+STRING cmd
+ENTER
+DELAY 500
+
+REM Change console color to red (0 = black bg, c = red text)
+STRING color 0c
+ENTER
+DELAY 100
+
+REM Run the requested command
+STRING curl ascii.live/forrest
+ENTER
