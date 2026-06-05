@@ -1,0 +1,21 @@
+REM Nachricht anzeigen
+GUI r
+DELAY 50
+STRING cmd /c msg * You are an idiot
+ENTER
+DELAY 20000
+
+REM Nachricht schließen
+ALT F4
+DELAY 100
+
+REM Video im Browser öffnen
+GUI r
+DELAY 50
+STRING https://youtu.be/48rz8udZBmQ?is=Am-J8Q9VIJ-6ZUMP
+ENTER
+REM 29 Sekunden Video abspielen
+DELAY 29000
+
+REM Browser schließen
+ALT F4
