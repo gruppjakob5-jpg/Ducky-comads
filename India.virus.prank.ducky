@@ -1,0 +1,19 @@
+REM Terminal öffnen
+GUI r
+DELAY 50
+STRING cmd
+ENTER
+DELAY 200
+
+REM Terminal-Farbe auf Grün setzen
+STRING color a
+ENTER
+DELAY 50
+
+REM ASCII-Animation starten
+STRING curl ascii.live/india
+ENTER
+DELAY 200
+
+REM Fenster in den Vollbildmodus setzen
+F11
