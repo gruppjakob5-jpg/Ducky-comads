@@ -1,0 +1,19 @@
+REM Terminal oeffnen
+GUI r
+DELAY 50
+STRING cmd
+ENTER
+DELAY 200
+
+REM Farbe auf hellgruen setzen (04 ist rot, 0a ist hellgruen)
+STRING color 0a
+ENTER
+DELAY 50
+
+REM Die Maxwell-Animation starten
+STRING curl ascii.live/maxwell
+ENTER
+DELAY 500
+
+REM Optional: Direkt ins Vollbild (Funktioniert meist bei F11)
+F11
